@@ -46,7 +46,7 @@ for (var t = 0; t < names.length; t++);{
 }
 
 console.log(names);
-console.log(newName);*/
+console.log(newName);
 
 
 function fullName(names) {
@@ -54,4 +54,30 @@ function fullName(names) {
 }
 fullName('Jegede');
 fullName('Glory');
-fullName('Gbolahan');
+fullName('Gbolahan');*/
+
+let month = "April";
+let age = 28;
+function fullName(){
+    console.log('I  am   Jegede by surname')
+    console.log('I  am   Glory by middlename', month)
+    console.log("I  am   Gbolahan my birthday is", age, "by lastname")
+    console.log('I  am   Jegs by nickname')
+
+};
+fullName();
+
+ function toCelcius(c) {
+    var result = (c * 9/5) + 32;
+    return result;
+ }
+
+Celcius = toCelcius (1000)
+console.log(Celcius);
+
+
+function toFarenheit(f) {
+   return (f-32) * (5/9);
+}
+Farenheit = toFarenheit (100000)
+console.log(Farenheit);
